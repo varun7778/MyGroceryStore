@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5C5FE"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-76dp"
+        android:layout_marginBottom="76dp"
+        android:background="#A5C5FE"
+        android:src="@drawable/e_shop_buy" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-20dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="124dp"
+        android:background="#A5C5FE"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO"
+        android:textColor="@color/black"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="62dp"
+        android:background="#A5C5FE"
+        android:fontFamily="@font/mclaren"
+        android:gravity="center_horizontal"
+        android:text="VaSaNi"
+        android:textColor="@color/black"
+        android:textSize="36sp" />
+
+</RelativeLayout>
